@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>72813E7E-F3D2-46C7-96B0-21E7B8B6BD71</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JHKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45F42A53D18E754C468E80D15D0765DEF9B873B0</key>
+		<string>https://github.com/johnny77221/JHKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/JHKit.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45F42A53D18E754C468E80D15D0765DEF9B873B0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/johnny77221/JHKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45F42A53D18E754C468E80D15D0765DEF9B873B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45F42A53D18E754C468E80D15D0765DEF9B873B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JHKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

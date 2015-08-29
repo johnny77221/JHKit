@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+
+target 'JHKit_Tests', :exclusive => true do
+  pod "JHKit", :path => "../"
+
+  
+end

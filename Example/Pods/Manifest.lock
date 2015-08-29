@@ -1,0 +1,14 @@
+PODS:
+  - JHKit (0.1.0)
+
+DEPENDENCIES:
+  - JHKit (from `../`)
+
+EXTERNAL SOURCES:
+  JHKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JHKit: 2d94348e4ccad4d33ed0a280f9784c6b46b1dcdb
+
+COCOAPODS: 0.38.2
