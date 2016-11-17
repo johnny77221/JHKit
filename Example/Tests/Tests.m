@@ -2,8 +2,8 @@
 //  JHKitTests.m
 //  JHKitTests
 //
-//  Created by John Hsu on 08/21/2015.
-//  Copyright (c) 2015 John Hsu. All rights reserved.
+//  Created by John Hsu on 11/18/2016.
+//  Copyright (c) 2016 John Hsu. All rights reserved.
 //
 
 @import XCTest;

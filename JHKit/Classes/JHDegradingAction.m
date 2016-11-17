@@ -40,7 +40,7 @@ void dispatch_async_repeated(dispatch_time_t firstPopTime, dispatch_time_t(^timi
 void dispatch_async_repeated_degrading(dispatch_queue_t queue, void(^work)(BOOL *shouldStop), NSTimeInterval maxWaitingInterval)
 {
     if (maxWaitingInterval < 2) {
-        NSLog(@"Error: invalid maxWaitingInterval");
+        NSLog(@"dispatch_async_repeated_degrading Error: invalid maxWaitingInterval");
         return;
     }
     __block NSTimeInterval currentInterval = 1;

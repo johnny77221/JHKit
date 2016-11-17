@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/johnny77221/JHKit.git", :tag => 'v0.1.1' }
   s.platform     = :ios, '6.0'
   s.requires_arc = true
-  s.source_files = 'Pod/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'Foundation'
+  s.source_files = 'JHKit/Classes/**/*'
+  s.public_header_files = 'JHKit/Classes/**/*.h'
+  s.ios.frameworks = 'Foundation'
+  
 end

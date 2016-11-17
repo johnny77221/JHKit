@@ -25,9 +25,8 @@
 
 #ifndef Pods_OtherKit_h
 #define Pods_OtherKit_h
-// UIColor+HTMLAdditions.h
-// NSString+URLEncoding.h
-
+#import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
 /**
  *  Setup audio session prevent other app's music (music player) stop by movie player
  *
@@ -44,12 +43,15 @@ static inline void JHSetupMixModeForAudioSession()
         [audioSession setActive: YES error: nil];
     }
     else {
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
         AudioSessionInitialize(NULL, NULL, NULL, NULL);
         UInt32 sessionCategory = kAudioSessionCategory_AmbientSound;
         AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);
         UInt32 allowMixWithOthers = true;
         AudioSessionSetProperty(kAudioSessionProperty_OverrideCategoryMixWithOthers, sizeof(allowMixWithOthers), &allowMixWithOthers);
         AudioSessionSetActive(true);
+#pragma GCC diagnostic pop
     }
 }
 #endif

@@ -1,7 +1,7 @@
 {
   "name": "JHKit",
-  "version": "0.1.0",
-  "summary": "John's helper pod collection",
+  "version": "0.1.1",
+  "summary": "Johnny77221's helper pod collection",
   "homepage": "https://github.com/johnny77221/JHKit",
   "license": "MIT",
   "authors": {
@@ -9,18 +9,13 @@
   },
   "source": {
     "git": "https://github.com/johnny77221/JHKit.git",
-    "tag": "v0.1.0"
+    "tag": "v0.1.1"
   },
   "platforms": {
     "ios": "6.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "JHKit": [
-      "Pod/Assets/*.png"
-    ]
-  },
   "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": "Foundation"
 }
